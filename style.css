@@ -1,0 +1,64 @@
+.header{
+    border-style: double;
+    height:1cm;
+    font-size: 0.7cm;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2cm;
+    background-color: #c91c1ca4;
+    font-weight: bold;
+    border-color: aliceblue;        
+}
+body{
+    background-color: rgb(65, 65, 65);
+}
+.information{
+    border-style: groove;
+    border-radius: 1cm;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0.5cm;
+    padding:0.7cm;
+    background-color: #c91c1ca4;
+}
+.Family{
+    border-radius: 60%;
+    border-style: double;
+    border-color: aliceblue;
+}
+.schoolLogo{
+    display:flex;
+    
+}
+.info{
+    color: rgb(174, 175, 175);
+}
+.allGames{
+    display:flex;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    border-style: groove;
+    background-color: #c91c1ca4;
+    margin: 1cm;
+    justify-content: space-evenly;
+
+}
+.eachGame{
+    flex-basis: 20%;  
+    margin: 1cm;
+    margin-left: 2cm;
+
+}
+.gameName{
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(174, 175, 175);
+}
+.secondTitle{
+    text-align: center;
+    font-size: 1.5cm;
+    text-decoration: underline;
+    color: rgb(174, 175, 175);
+}
